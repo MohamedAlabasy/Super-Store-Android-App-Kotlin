@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Super Store App</string>
+
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="skip">SKIP</string>
+
+    <string name="have_account">Don’t have an account?</string>
+
+
+    <string name="onBoard_main_tv1">Search for favorite\nfood near you</string>
+    <string name="onBoard_main_tv2">Find best restaurant\nServices</string>
+    <string name="onBoard_main_tv3">Pickup delivery at\nyour door</string>
+    <string name="onBoard_sub_tv1">Advanced diverted domestic sex repeated bringing\nyou old Possible Another journey </string>
+    <string name="onBoard_sub_tv2">Advanced diverted domestic sex repeated bringing\nyou old Possible Another journey </string>
+    <string name="onBoard_sub_tv3">Advanced diverted domestic sex repeated bringing\nyou old Possible Another journey  </string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">SignUp</string>
+    <string name="OR">OR</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+
+</resources>

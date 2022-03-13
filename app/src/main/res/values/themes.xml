@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SuperStoreApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="textInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="boxCornerRadiusTopEnd">6dp</item>
+        <item name="boxCornerRadiusTopStart">6dp</item>
+        <item name="boxCornerRadiusBottomEnd">6dp</item>
+        <item name="boxCornerRadiusBottomStart">6dp</item>
+    </style>
+
+    <style name="textInputEditText">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textColor">@color/lightBlack</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+    <style name="main_btn">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/shape_main_btn</item>
+    </style>
+
+
+    <style name="sub_btn">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/shape_sub_btn</item>
+    </style>
+
+    <style name="loader">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@drawable/shape_main_btn</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:elevation">1000dp</item>
+        <item name="lottie_autoPlay">true</item>
+        <item name="lottie_loop">true</item>
+        <item name="lottie_rawRes">@raw/loading</item>
+    </style>
+
+
+    <style name="PinWidget.PinView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textCursorDrawable">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandle">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleLeft">@drawable/pv_invisible_image</item>
+        <item name="android:textSelectHandleRight">@drawable/pv_invisible_image</item>
+    </style>
+
+    <style name="progressBar" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/red</item>
+        <item name="android:elevation">10000dp</item>
+    </style>
+
+
+    <style name="back_img">
+        <item name="android:src">@drawable/ic_black_back</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginStart">-20dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+</resources>
